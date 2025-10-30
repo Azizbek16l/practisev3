@@ -1,0 +1,51 @@
+    /* Header.css */
+header .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin: 0 auto;
+}
+ header ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    li {
+        font-size: 19px;
+    }
+}
+.img-box {
+    width: 170px;
+}
+.img-box img {
+    max-width: 100%;
+}
+
+header {
+    padding: 23px 0;
+}
+
+
+
+.border-nav {
+    padding: 8px 12px;
+    border: 1px solid #D7E1F3;
+    border-radius: 8px;
+}
+
+
+#follow-nav {
+    padding: 8px 12px;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 8px;
+    background: #CE42FF;
+    background: linear-gradient(90deg,rgba(206, 66, 255, 1) 0%, rgba(39, 176, 252, 1) 50%, rgba(59, 241, 218, 1) 100%);
+}
+
+#profile-user-nav {
+    width: 48px;
+}
