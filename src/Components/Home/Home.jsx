@@ -1,6 +1,5 @@
-import Header from "./Header"
-import SidebarLeft from "./Sidebar/SidebarLeft"
-
+import SidebarLeft from "../Sidebar/SidebarLeft"
+import Header from "../Header/Header"
 
 function Home() {
   return (
