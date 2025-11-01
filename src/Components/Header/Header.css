@@ -25,6 +25,8 @@ header .container {
 
 header {
     padding: 23px 0;
+    background: white;
+    margin-bottom: 50px;
 }
 
 

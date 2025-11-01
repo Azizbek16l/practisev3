@@ -12,6 +12,7 @@
             border-radius: 12px;
             padding: 12px 16px;
             color: black;
+            transition: all 0.1s;
         }
         li:hover {
         background-color: #FC6736;

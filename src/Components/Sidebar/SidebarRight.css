@@ -1,0 +1,16 @@
+.SidebarRight{
+    position: absolute;
+    right: 32px;
+    top: 146px;
+    width: 268px;
+    height: 519px;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.SidebarRight h2 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
