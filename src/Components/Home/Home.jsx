@@ -15,7 +15,7 @@ function Home() {
       </main> */}
       <Shop/>
       
-    <SidebarRight/>
+    
     </div>
   )
 }

@@ -5,3 +5,14 @@
     border-radius: 12px;
     padding: 17px;
 }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-bottom: 30px;
+}
+
+.card-title{
+  font-size: 13px;
+  font-weight: 400;  
+}
