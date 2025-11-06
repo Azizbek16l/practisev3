@@ -9,6 +9,7 @@ function SidebarLeft() {
         <li>🎥Eduverse</li>
         <li>⌨️MarsCode</li>
         <li>📰Blog</li>
+        <li>🛒Shop</li>
     </ul>
     </div>
   )

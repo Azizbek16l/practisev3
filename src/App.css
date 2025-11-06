@@ -15,7 +15,7 @@ body {
   font-family: sans-serif;
 }
 
-main {
+main,.cards {
   margin-left: 310px;
 }
 
