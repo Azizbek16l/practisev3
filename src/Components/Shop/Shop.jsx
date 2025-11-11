@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import './Shop.css'
+import Card from '../Card/Card';
 
 function Shop() {
     const [products,setproducts]=useState([])
@@ -12,17 +13,8 @@ function Shop() {
     <div className='cards'>
     {
         products.map((product)=>(
-             <div className="card">
-        <div className='card-img'>
-            <img src="./product.png" alt="buy card"/>        
-        </div>
-
-        <div className='card-info'>
-        <h3 className='card-title'>{product.title}</h3>
-        <p className='card-price'>{product.price}🪙 <span>| 13 ta qoldi</span></p>
-         <button>Sotib olish</button>
-        </div>
-    </div> 
+          <Card price={product.price} title={product.title} imglink='./product.png'/>
+            
         ))
     }
     

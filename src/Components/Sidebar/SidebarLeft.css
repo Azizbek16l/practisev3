@@ -1,7 +1,7 @@
 #SidebarLeft {
     padding: 16px;
     position: fixed;
-
+    top: 100px;
     ul{
         width: 248px;
         height: 348px;

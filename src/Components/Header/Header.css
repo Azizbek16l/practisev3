@@ -6,6 +6,7 @@ header .container {
     align-items: center;
     width: 94%;
     margin: 0 auto;
+
 }
  header ul {
     display: flex;
@@ -27,6 +28,10 @@ header {
     padding: 23px 0;
     background: white;
     margin-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+   
 }
 
 
